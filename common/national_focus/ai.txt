@@ -1,0 +1,29 @@
+focus_tree = {
+	id = ai
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			OR = {
+				tag = TUR
+				tag = AUS
+				tag = LIT
+				tag = HOL
+				tag = BEL
+				tag = CZE
+				tag = POL
+				tag = DEN	
+				tag = NOR
+				tag = LUX
+				tag = ALB
+				tag = INS
+				tag = LIT
+				tag = LAT
+				tag = EST
+				tag = YUG
+				tag = GRE
+			}
+		}
+	}
+}
+
