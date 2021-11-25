@@ -438,7 +438,7 @@ guiTypes = {
 		
 		background = {
 			name = "Background"
-			spriteType ="GFX_building_standing_entry_stateview"
+			spriteType ="GFX_building_entry_stateview"
 		}
 		
 		iconType = {

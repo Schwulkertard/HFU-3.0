@@ -980,18 +980,6 @@ guiTypes = {
 					position = { x=-100 y=140 }
 					size = { width = 80 height = 100%% }
 					orientation = upper_right
-                     instantTextBoxType = {
-						name = "armour_year1"
-						position = { x = 0 y = 2 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1918"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}	
 				
 					instantTextBoxType = {
 						name = "armour_year2_left"

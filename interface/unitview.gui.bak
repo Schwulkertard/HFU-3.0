@@ -2049,12 +2049,6 @@ OverlappingElementsBoxType = {
 		}
 
 		iconType = {
-               	name = "composition_icon"
-			spriteType = "GFX_army_composition_icon"
-			position = {x=205 y=325}
-		}
-
-		iconType = {
 			name = "armor_softness_icon"
 			spriteType = "GFX_armor_softness_icon"
 			position = {x=243 y=330}
