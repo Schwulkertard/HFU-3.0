@@ -105,16 +105,6 @@ ideas = {
 			}
 		}
 	}
-	political_advisor = {
-	}
-	air_chief = {
-	}
-	navy_chief = {
-	}
-	high_command = {
-	}
-	theorist = {
-	}
 	naval_manufacturer = {
 		designer = yes
 		jiangnan_shipyard_group = {
