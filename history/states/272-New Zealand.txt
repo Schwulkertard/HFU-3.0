@@ -1,0 +1,24 @@
+state={
+	id=272
+	name="STATE_284"
+	manpower = 899836
+	state_category = city
+	history={
+		owner = AST
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			4265 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			4265 10
+		}
+		add_core_of = AST
+	}
+	provinces={
+		1506 1643 1668 1702 1714 1724 4265 4326 4417 4441 4488 7122 7165 7200 7235 7288 9509 9543 9740 9827 11232 11429 11439 11477
+	}
+}
+

@@ -1,0 +1,23 @@
+state={
+	id=162
+	name="STATE_166"
+	resources={
+		steel=15.000
+	}
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			anti_air_building = 10
+		}
+		add_core_of = SPR
+	}
+	provinces={
+		 3582 
+	}
+	manpower=668365
+	buildings_max_level_factor=1.000
+	state_category=town
+}
+

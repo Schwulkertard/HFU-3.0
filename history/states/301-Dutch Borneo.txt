@@ -1,0 +1,34 @@
+state={
+	id=301
+	name="STATE_334"
+	resources={
+		rubber=20
+	}
+	history={
+		owner = INS
+		add_core_of = INS
+		victory_points = {
+			9413 5
+		}
+		victory_points = {
+			1261 5
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 5
+			9413 = {
+				naval_base = 3
+			}
+			1261 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces={
+		1170 1175 1249 1261 1361 2028 4009 4064 4138 6692 6761 6820 7525 9316 9355 9413 9442 9458 9486 10995 11013 11107 11133 11159 11666
+	}
+	manpower=1168600
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
+

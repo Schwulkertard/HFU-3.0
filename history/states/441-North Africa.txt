@@ -1,0 +1,18 @@
+state={
+	id=441
+	name="STATE_514"
+	manpower = 207733
+	state_category = wasteland
+	impassable = yes
+	history={
+		owner = FRA
+		add_core_of=SWE
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	provinces={
+		989 1041 1800 4567 4717 6508 9854 11513 11615
+	}
+}
+

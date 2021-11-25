@@ -6,20 +6,18 @@ bookmarks = {
 		picture = "GFX_select_date_1936"
 		default_country = "GER"
 		default = yes
-
 		"FRA"={
 			history = "FRA_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
+			ideology = democratic			ideas = {
 				FRA_victors_of_wwi
 				FRA_disjointed_government
 				FRA_protected_by_the_maginot_line
 			}
 			focuses = {
-				#FRA_initiate_government_reform
-				#FRA_support_status_quo
-				#FRA_evacuation_to_morocco
-			}
+				FRA_devalue_the_franc
+				FRA_defensive_focus
+				FRA_firepower_kills			
+				}
 		}
 		"USA"={
 			history = "USA_GATHERING_STORM_DESC"
@@ -32,6 +30,7 @@ bookmarks = {
 			focuses = {
 				USA_war_plan_black
 				USA_the_giant_wakes
+				USA_asian_theatre
 			}
 		}
 		"ENG"={
@@ -59,7 +58,9 @@ bookmarks = {
 				george_v
 			}
 			focuses = {
-
+				limited_rearmament_focus
+				air_defense_focus
+				shadow_scheme_focus
 			}
 		}
 		"GER"={
@@ -152,8 +153,6 @@ bookmarks = {
 				CAN_if_day
 				CAN_national_steel_car
 				CAN_canada_wheat_board
-
-
 			}
 		}
 		"AST"={
@@ -166,8 +165,6 @@ bookmarks = {
 			focuses = {
 				AST_squash_the_squanderbugs
 				AST_rats_of_tobruk
-
-
 			}
 		}
 		"SAF"={
@@ -200,7 +197,6 @@ bookmarks = {
 				RAJ_the_smiling_buddha
 			}
 		}
-
 		"HUN"={
 			minor = yes
 			history = "HUN_GATHERING_STORM_DESC"
