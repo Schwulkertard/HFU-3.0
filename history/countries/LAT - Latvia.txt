@@ -22,16 +22,7 @@ set_popularities = {
 	communism = 15
 	neutrality = 40
 }
-create_country_leader = {
-	name = "Karlis Ulmanis"
-	desc = "POLITICS_KARLIS_ULMANIS_DESC"
-	picture = "GFX_Portrait_latvia_karlis_ulmanis"
-	expire = "1965.1.1"
-	ideology = oligarchism
-	traits = {
-		#
-	}
-}
-### VARIANTS ###
-# 1936 Start #
 
+recruit_character = LAT_gustavs_celminsh
+recruit_character = LAT_augusts_kirhensteins
+recruit_character = LAT_martinsh_penikis

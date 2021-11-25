@@ -52,25 +52,9 @@ set_popularities = {
 	neutrality = 65
 }
 set_stability = 0.75
-create_country_leader = {
-	name = "Ioannis Metaxas"
-	desc = "POLITICS_IOANNIS_METAXAS_DESC"
-	picture = "Portrait_Greece_Ioannis_Metaxas.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-create_corps_commander = {
-	name = "BZK"
-	portrait_path = "gfx/leaders/BZK/BZK.tga"
-	traits = { hill_fighter panzer_leader organizer commando harsh_leader }
-	skill = 6
-	attack_skill = 7
-	defense_skill = 3
-	planning_skill = 4
-	logistics_skill = 3
-}
+
+recruit_character = GRE_konstantinos_demertzis
+recruit_character = GRE_nikos_zachariadis
+recruit_character = GRE_george_mercouris
 
 

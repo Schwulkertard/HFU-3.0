@@ -46,33 +46,7 @@ set_popularities = {
 	fascism = 5
 	communism = 10
 }
-create_country_leader = {
-	name = "Edvard Beneš"
-	desc = "POLITICS_EDVARD_BENES_DESC"
-	picture = "Portrait_Czech_Edvard_Benes.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Jozef Tiso"
-	desc = "POLITICS_JOZEF_TISO_DESC"
-	picture = "Portrait_Slovakia_Jozef_Tiso.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	add_ideas = {
-		CZE_skoda_works
-		CZE_divided_nation
-	}
-}
 
+recruit_character = CZE_karl_albrecht
+recruit_character = CZE_edvard_benesh
+recruit_character = CZE_jaroslav_krejchi

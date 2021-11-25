@@ -90,20 +90,6 @@ if = {
 }
 # DIPLOMACY
 set_variable = { var = gateway_to_europe_influence_pp_total value = 0 }
-add_ideas = {
-	HOL_wilhelmina
-}
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	add_ideas = {
-		HOL_aloof_neutrality
-		HOL_shell_shocked_spectator_5
-		HOL_de_crisisjaren_5
-		HOL_weak_government
-	}
-}
 set_politics = {
 	ruling_party = democratic
 	last_election = "1933.4.26"
@@ -117,37 +103,11 @@ set_popularities = {
 }
 set_convoys = 50
 set_stability = 0.75
-create_country_leader = {
-	name = "Hendrikus Colijn"
-	desc = "POLITICS_HENDRIKUS_COLJIN_DESC"
-	picture = "GFX_portrait_holland_hendrikus_colijn"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		strict_austerity_adherent
-	}
-}
-create_field_marshal = {
-	name = "Izaak Reijnders"
-	id = 980
-	gfx = "GFX_portrait_hol_izaak_reijnders"
-	traits = { old_guard inflexible_strategist trait_reckless }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 3
-}
-create_corps_commander = {
-	name = "Godfried van Voorst tot Voorst"
-	gfx = "GFX_portrait_hol_godfried_van_voorst_tot_voorst"
-	traits = { brilliant_strategist armor_officer politically_connected }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 3
-}
+
+recruit_character = HOL_hendrikus_colijn
+recruit_character = HOL_anton_mussert
+recruit_character = HOL_lou_de_visser
+
 ### VARIANTS ###
 # 1936 Start #
 if = {

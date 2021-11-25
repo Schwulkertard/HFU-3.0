@@ -16,14 +16,7 @@ set_politics = {
 set_popularities = {
 	neutrality = 100
 }
-create_country_leader = {
-	name = "Reza Shah Pahlavi"
-	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
-	picture = "Portrait_Iran_Reza_Shah_Pahlavi.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
 
+recruit_character = PER_reza_shah_pahlavi
+recruit_character = PER_soleyman_mirza_eskandari
+recruit_character = PER_hasan_arfa

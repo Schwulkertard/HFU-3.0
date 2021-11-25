@@ -82,53 +82,39 @@ set_popularities = {
 set_convoys = 200
 set_stability = 0.35
 set_war_support = 0.15
-create_country_leader = {
-	name = "Manuel Azana"
-	desc = "POLITICS_MANUEL_AZANA_DESC"
-	picture = "Portrait_Spain_Manuel_Azana.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "José Díaz"
-	desc = "POLITICS_JOSE_DIAZ_DESC"
-	picture = "Portrait_Spain_Jose_Diaz.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Francisco Franco"
-	desc = "POLITICS_FRANCISCO_FRANCO_DESC"
-	picture = "Portrait_Spain_Francisco_Franco.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Alejandro Lerroux"
-	desc = "POLITICS_ALEJANDRO_LERROUX_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
-}
-create_field_marshal = {
-	name = "Davila Arrondo"
-	portrait_path = "gfx/leaders/SPR/Davila_Arrondo.tga"
-	traits = { panzer_leader infantry_leader ranger trickster }
-	skill = 5
-	attack_skill = 5
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-}
 
+recruit_character = SPR_niceto_alcala_zamora
+	recruit_character = SPR_jose_diaz
+	recruit_character = SPR_alejandro_lerroux
+	recruit_character = SPA_francisco_franco
+	recruit_character = SPR_jose_asensio_torrado
+	recruit_character = SPA_ricardo_rada
+	recruit_character = SPR_diego_hidalgo_duran
+	recruit_character = SPA_luis_carrero_blanco
+	recruit_character = SPA_joaquin_garcia_morato
+	recruit_character = SPR_andres_saborit_colomer
+	recruit_character = SPA_miguel_cabanellas
+	recruit_character = SPR_jose_miaja
+	recruit_character = SPA_juan_yague
+	recruit_character = SPA_emilio_esteban_infantes
+	recruit_character = SPA_salvador_moreno_fernandez
+	recruit_character = SPR_vincente_rojo_lluch
+	recruit_character = SPR_miguel_buiza_fernandez_palacios
+	recruit_character = SPA_jose_enrique_varela
+	recruit_character = SPA_fransisco_moreno_fernandez
+	recruit_character = SPR_luis_gonzalez_de_ubieta
+	recruit_character = SPA_emilio_herrera
+	recruit_character = SPR_carlos_masquelet_lacaci
+	recruit_character = SPR_indalecio_prieto_tuero
+	recruit_character = SPA_angel_salas_larrazabal
+	recruit_character = SPA_agustin_munoz_grandes
+	recruit_character = SPR_ignacio_hidalgo_de_cisneros
+	recruit_character = SPR_andres_garcia_la_calle
+	recruit_character = SPA_emilio_mola
+	recruit_character = SPA_alfredo_kindelan_duany
+	recruit_character = SPR_antonio_azarola_y_gresillon
+	recruit_character = SPR_nicolas_molero
+	recruit_character = SPR_dolores_ibarruri_vanilla
+	recruit_character = SPR_diego_martinez_barrio_vanilla
+	recruit_character = SPR_augusto_barcia_trelles_vanilla
+	recruit_character = SPR_francisco_largo_caballero_vanilla

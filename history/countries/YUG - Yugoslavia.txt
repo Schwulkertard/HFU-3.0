@@ -17,7 +17,6 @@ add_ideas = neutrality_idea1
 add_timed_idea = { idea = no_training days= 1095 }
 add_ideas = peace_training
 add_ideas = {
-	anti_german_military
 }
 
 set_technology = {
@@ -83,34 +82,5 @@ set_popularities = {
 	neutrality = 100
 }
 set_stability = 0.6
-create_country_leader = {
-	name = "Prince Paul"
-	desc = "POLITICS_PRINCE_PAUL_DESC"
-	picture = "Portrait_Yugoslavia_Prince_Paul.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-create_corps_commander = {
-	name = "Ivan Gošnjak"
-	gfx = GFX_Portrait_yugoslavia_ivan_gosnjak
-	traits = { urban_assault_specialist }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
-}
-create_field_marshal = {
-	name = "Milutin Nedić"
-	gfx = GFX_Portrait_yugoslavia_milutin_nedic
-	traits = { thorough_planner }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
-}
 
+recruit_character = YUG_prince_paul
